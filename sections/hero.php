@@ -39,7 +39,7 @@ AI Voice
 href="#contact"
 class="btn-primary">
 
-Ücretsiz Teklif Al
+Ãœcretsiz Teklif Al
 
 </a>
 

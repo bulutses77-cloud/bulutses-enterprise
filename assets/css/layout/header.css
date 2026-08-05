@@ -1,0 +1,117 @@
+/* =====================================================
+   BulutSes Enterprise
+   Premium Header
+===================================================== */
+
+.bs-header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+
+    background:rgba(8,17,31,.72);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border-bottom:1px solid var(--border);
+
+    transition:.35s ease;
+}
+
+.bs-header .container{
+
+    height:84px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.bs-header nav{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.logo img{
+
+    height:46px;
+
+}
+
+.bs-header ul{
+
+    display:flex;
+
+    gap:38px;
+
+}
+
+.bs-header li{
+
+    display:flex;
+
+}
+
+.bs-header a{
+
+    color:var(--text-primary);
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+    font-size:15px;
+
+}
+
+.bs-header a:hover{
+
+    color:var(--primary);
+
+}
+
+.btn-primary{
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-weight:700;
+
+    transition:var(--transition);
+
+    box-shadow:
+
+    0 15px 40px rgba(0,168,255,.35);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+    background:var(--primary-hover);
+
+}
