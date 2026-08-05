@@ -1,0 +1,26 @@
+/* ======================================================
+   BulutSes Design System
+====================================================== */
+
+:root{
+
+    --bg-primary:#08111F;
+    --bg-secondary:#101A2C;
+    --bg-card:rgba(255,255,255,.05);
+
+    --primary:#00A8FF;
+    --primary-hover:#33BCFF;
+
+    --text-primary:#FFFFFF;
+    --text-secondary:#9DB1C8;
+
+    --border:rgba(255,255,255,.08);
+
+    --radius:18px;
+
+    --transition:.35s ease;
+
+    --shadow:
+    0 20px 60px rgba(0,0,0,.35);
+
+}
